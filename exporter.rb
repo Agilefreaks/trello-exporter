@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
+require 'dotenv'
 require 'trello'
 require 'csv'
+
+Dotenv.load
 
 # Configure Trello with your API key and member token
 Trello.configure do |config|

@@ -1,0 +1,121 @@
+Title,Description,Labels,List,Moved
+Rumale,"https://github.com/yoshoku/rumale
+This seems to be a promising framework for Machine Learning in Ruby. It would be interesting to try it out in the future, should we need it.",Programming Languages and Frameworks,ASSESS,FALSE
+Cloud66,"Deploy Happy
+
+Application developers everywhere spend too much time thinking about uptime, security and speed. ",Tools,ASSESS,FALSE
+Gitlab,"",Tools,ASSESS,FALSE
+Python,"",Programming Languages and Frameworks,ASSESS,FALSE
+AWS Fargate,"Like AWS lambda but whiteout constraints
+
+https://www.learnaws.org/2019/09/14/deep-dive-aws-fargate/",Platforms,ASSESS,FALSE
+Neo4j,https://neo4j.com/,Tools,ASSESS,FALSE
+EVCache,https://github.com/Netflix/EVCache,Tools,ASSESS,FALSE
+Jetpack,"A wrapper around webpack to make it more usable.
+
+https://github.com/KidkArolis/jetpack",,ASSESS,FALSE
+Hanami,"https://hanamirb.org/
+
+This seems to be an interesting alternative to Rails.",Programming Languages and Frameworks,ASSESS,FALSE
+RubyCritic,Cheap solution to our ruby analyzis.,Tools,ASSESS,FALSE
+Eventide,"As microservices become more and more prelevant, https://eventide-project.org/ is a framework for ruby to help writing them.
+
+They also have a slack channel and a blog they use https://blog.eventide-project.org/",Tools,ASSESS,FALSE
+WASM,https://webassembly.org/ - Compile code and run in the browser next to JS,Programming Languages and Frameworks,ASSESS,FALSE
+ProgressiveWebApps,"Progressive web apps are websites that look and feel like an app. This means users can access all information and capabilities without downloading a mobile app. Instead, progressive web apps use modern web technology to deliver app-like experiences to users, right in their browsers.",Techniques,ASSESS,FALSE
+Pair programming,There are numeros benefits to this.,Techniques,ASSESS,FALSE
+Internet computer,"https://dfinity.org/
+
+Autonous software
+Security by default
+Freeing captive customers
+Reducing complexity
+",,ASSESS,FALSE
+BPMN,"https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation
+
+Java implementation: https://www.flowable.org/documentation.html
+Ruby: http://trailblazer.to/gems/workflow/circuit.html",Programming Languages and Frameworks,ASSESS,FALSE
+Testcontainers,"https://www.testcontainers.org/
+
+This, as the name suggests, is a library that provides disposable Docker containers for tests. The idea is to be able to start them from code. It provides out of the box support (classes) for a few popular data stores, or you can spin up your own from an image and set it up the way you like. You can also load your setup from docker-compose files.
+
+It doesn't even compose locally, as it apparently spins up a docker compose container that composes things internally, so the only requirement is Docker.
+
+I started trialing it in Stargate it and it seems to be a success so far.",Tools,ASSESS,FALSE
+Architecture Guild,"What it is:
+https://github.com/jakubnabrdalik/architecture-guild",Techniques,ASSESS,FALSE
+Mobile.dev,"[https://www.mobile.dev/](https://www.mobile.dev/ ""smartCard-inline"")  - tool to create automated UI tests for mobile apps.",Tools,ASSESS,FALSE
+Fly.io,"""I know I've been down on cloud lately, but I really like what  Fly.io is doing. The HTTP verb-based region distribution is brilliant, it's built on stock Dockerfiles that are easy to migrate, and they engage with the ecosystem 👍""
+
+https://twitter.com/dhh/status/1632044101418745864?t=SxHb_5v3v9vgIIK7eMBO_Q&s=19",Platforms,ASSESS,FALSE
+Retool,"[Retool.com](http://Retool.com ""‌"")
+
+‌
+
+Looking for a tool  where we can plug in with our google spreadsheets to automate different scenarios.
+
+Read from spreadsheets to have them available as an API
+
+Read data from external APIs and write them to the google spreadsheets (e.g. Freshbooks data, ING data)
+
+Automate workflows between our spreadsheets",Tools,ASSESS,FALSE
+Elixir,"",Programming Languages and Frameworks,TRIAL,FALSE
+Nettify,https://www.netlify.com/,Platforms,TRIAL,FALSE
+Event Sourcing / CQRS,"",Techniques,TRIAL,FALSE
+Visual Regression Testing,"",Techniques,TRIAL,FALSE
+BackstopJS,"",Tools,TRIAL,FALSE
+DynamoDB,Cache that can scale horizontally and across regions,Tools,TRIAL,FALSE
+Fullstack Ruby,https://fullstaqruby.org/,Programming Languages and Frameworks,TRIAL,FALSE
+Kafka,"",Tools,TRIAL,FALSE
+GraphQL,"",Programming Languages and Frameworks,TRIAL,FALSE
+JSONAPI,"Pros
+
+- when it comes to REST api's I don't see any other spec out there 
+
+Cons
+
+- does not seem so have good comunity supporr
+- some mobile support is missing (ios)",Programming Languages and Frameworks,TRIAL,FALSE
+KeyBase,"Trialing KeyBase together with Marek as a replacement for Slack
+
+https://keybase.io",Tools,TRIAL,FALSE
+CI,"CI like you mean it, I am talking full deployment to production with feature flags and master only commits.",Techniques,TRIAL,FALSE
+Flutter for web,"",Programming Languages and Frameworks,TRIAL,FALSE
+GO,"https://golang.org/ is a fast compiled language, it has a very simple syntax and some intresting ways to handle mutability and errors that make it very reliable.
+
+Prefer go to c / c++",Programming Languages and Frameworks,TRIAL,FALSE
+Haskell,"",Programming Languages and Frameworks,TRIAL,FALSE
+Katalon Studio,"Trying to set up an automated regression test suite. Will be using Katalon Studio [https://katalon.com/](https://katalon.com/ ""smartCard-inline"")
+
+Trial on the UNGC website",Tools,TRIAL,FALSE
+Basecamp,"",Tools,TRIAL,FALSE
+Microservices,"",Techniques,ADOPT,FALSE
+Docker,"",Platforms,ADOPT,FALSE
+Kubernetes,"",Platforms,ADOPT,FALSE
+Lambda(@Edge),"",Platforms,ADOPT,FALSE
+Solidity (smart contracts),"There is a lot to gain by writting distributed apps and contracts for some types of projects, including the UN project.",Tools,ADOPT,FALSE
+Release trains,Best explanation for https://jdam.cd/release-trains/,Techniques,ADOPT,FALSE
+API test tools,"All QA team members have experience using Postman, Insomnia, Swagger",Tools,ADOPT,FALSE
+Charles proxy,"",Tools,ADOPT,FALSE
+Elm,"",Programming Languages and Frameworks,HOLD,FALSE
+Flutter (mobile / web cross platform development),"Flutter is picking up a lot of speed, it comes build in on top of Dart a easy to use programming language.
+
+In the latest release they added web as a platform.",Tools,HOLD,FALSE
+Php,Just kidding :),Programming Languages and Frameworks,HOLD,FALSE
+Redis,Cannot scale horizontally and cross data centers,Tools,HOLD,FALSE
+Machine learning,"",Tools,HOLD,FALSE
+AgileLite,https://github.com/davebs/AgileLite,Techniques,HOLD,FALSE
+Ember,"",Programming Languages and Frameworks,HOLD,FALSE
+TDD,"",Techniques,INDEX,FALSE
+Agile,"",Techniques,INDEX,FALSE
+Ruby on Rails,"",Programming Languages and Frameworks,INDEX,FALSE
+Ruby,"",Programming Languages and Frameworks,INDEX,FALSE
+Github,"",Tools,INDEX,FALSE
+C#,"",Programming Languages and Frameworks,INDEX,FALSE
+Java,"",Programming Languages and Frameworks,INDEX,FALSE
+JS,"",Programming Languages and Frameworks,INDEX,FALSE
+PostgreSQL,"",Tools,INDEX,FALSE
+MySQL,"",Tools,INDEX,FALSE
+Kotlin (Android development),"",Programming Languages and Frameworks,INDEX,FALSE
+Swift (ios Development),"",Programming Languages and Frameworks,INDEX,FALSE
+Brightscript/Brightsign (roku development),"",Programming Languages and Frameworks,INDEX,FALSE

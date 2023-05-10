@@ -14,6 +14,7 @@ GEM
     crack (0.4.5)
       rexml
     diff-lcs (1.5.0)
+    dotenv (2.8.1)
     faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -68,6 +69,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv (~> 2.8, >= 2.8.1)
   rspec (~> 3.12)
   ruby-trello (~> 4.0)
   vcr (= 6.1)
