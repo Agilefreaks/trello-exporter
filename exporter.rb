@@ -38,7 +38,6 @@ class Exporter
 
   def execute
     CSV.open("output/card_details.csv", "wb") do |csv|
-      csv << %w[Title Description Labels List Moved]
       list.each do |card_detail|
         csv << [card_detail.title, card_detail.description, card_detail.label, card_detail.list.upcase, "FALSE"]
       end
