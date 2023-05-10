@@ -1,0 +1,835 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.trello.com/1/boards/ydR8z4TW?key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:48:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '3735'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=b2fbce6bd0a4a3fd5f910b25defa0b56ee4e2ad88ec9b6789f2f5ae42d315349; Path=/;
+        Expires=Wed, 24 May 2023 15:48:59 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '99'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '299'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '374'
+      X-Server-Time:
+      - '1683733739349'
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - 843f5035d975b18d
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+    body:
+      encoding: UTF-8
+      string: '{"id":"5d827a5980e2cc5d428124bb","name":"Technology radar","desc":"The
+        tech radar for Agile Freaks.","descData":{"emoji":{}},"closed":false,"idOrganization":"5d8279fc762d8d205858b029","idEnterprise":null,"pinned":false,"url":"https://trello.com/b/ydR8z4TW/technology-radar","shortUrl":"https://trello.com/b/ydR8z4TW","prefs":{"permissionLevel":"org","hideVotes":false,"voting":"disabled","comments":"members","invitations":"members","selfJoin":false,"cardCovers":true,"isTemplate":false,"cardAging":"regular","calendarFeedEnabled":false,"hiddenPluginBoardButtons":[],"switcherViews":[{"_id":"63abfa429cdff9015cb13012","viewType":"Board","enabled":true},{"_id":"63abfa429cdff9015cb13013","viewType":"Table","enabled":true},{"_id":"63abfa429cdff9015cb13014","viewType":"Calendar","enabled":false},{"_id":"63abfa429cdff9015cb13015","viewType":"Dashboard","enabled":false},{"_id":"63abfa429cdff9015cb13016","viewType":"Timeline","enabled":false},{"_id":"63abfa429cdff9015cb13017","viewType":"Map","enabled":false}],"background":"5c05b1ceb209814845406e11","backgroundColor":null,"backgroundImage":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1703/2af5e1bfcfbaaac81054e415c60443dd/photo-1451187580459-43490279c0fa","backgroundImageScaled":[{"width":140,"height":93,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x93/1d64a281417e15b03ed6122ba7ca7ff5/photo-1451187580459-43490279c0fa.jpg"},{"width":256,"height":170,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x170/781fcd9d7237e62cd517b53ba7d0014f/photo-1451187580459-43490279c0fa.jpg"},{"width":480,"height":319,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x319/5dd21f618d3eff4e7790cd85ad644d76/photo-1451187580459-43490279c0fa.jpg"},{"width":960,"height":639,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x639/897d1cbac6bb840f372c3402d427a434/photo-1451187580459-43490279c0fa.jpg"},{"width":1024,"height":681,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x681/c73521c0d210bf8698ab767bfee12dd0/photo-1451187580459-43490279c0fa.jpg"},{"width":1280,"height":852,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x852/04f88c4fea0957e4a1c67e81be456230/photo-1451187580459-43490279c0fa.jpg"},{"width":1920,"height":1277,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1277/5787f4af34c5941b3110508cd42651fa/photo-1451187580459-43490279c0fa.jpg"},{"width":2048,"height":1362,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1362/ad39d34d13f925680be0a87487ee7cb9/photo-1451187580459-43490279c0fa.jpg"},{"width":2405,"height":1600,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2405x1600/33752385d25564392e69ea67dbb4d269/photo-1451187580459-43490279c0fa.jpg"},{"width":2560,"height":1703,"url":"https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1703/2af5e1bfcfbaaac81054e415c60443dd/photo-1451187580459-43490279c0fa"}],"backgroundTile":false,"backgroundBrightness":"dark","backgroundBottomColor":"#070c17","backgroundTopColor":"#040404","canBePublic":true,"canBeEnterprise":true,"canBeOrg":true,"canBePrivate":true,"canInvite":true},"labelNames":{"green":"Programming
+        Languages and Frameworks","yellow":"Tools","orange":"Platforms","red":"Discuss","purple":"Techniques","blue":"","sky":"","lime":"","pink":"","black":"","green_dark":"","yellow_dark":"","orange_dark":"","red_dark":"","purple_dark":"","blue_dark":"","sky_dark":"","lime_dark":"","pink_dark":"","black_dark":"","green_light":"","yellow_light":"","orange_light":"","red_light":"","purple_light":"","blue_light":"","sky_light":"","lime_light":"","pink_light":"","black_light":""}}'
+  recorded_at: Wed, 10 May 2023 15:48:59 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/boards/5d827a5980e2cc5d428124bb/lists?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:48:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '820'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=4831975830f95a44c8135be68400dad308585e52035cad8fd67586fdd4d92b46; Path=/;
+        Expires=Wed, 24 May 2023 15:48:59 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '98'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '298'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '373'
+      X-Server-Time:
+      - '1683733739756'
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - 8deb1d7ec2d1eb7e
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+    body:
+      encoding: UTF-8
+      string: '[{"id":"5d827a76697221209f1476a9","name":"Assess","closed":false,"idBoard":"5d827a5980e2cc5d428124bb","pos":65535,"subscribed":false,"softLimit":null,"status":null},{"id":"5d827a786616c90ae1d7aca0","name":"Trial","closed":false,"idBoard":"5d827a5980e2cc5d428124bb","pos":131071,"subscribed":false,"softLimit":null,"status":null},{"id":"5d827a79540eba071ae1314c","name":"Adopt","closed":false,"idBoard":"5d827a5980e2cc5d428124bb","pos":196607,"subscribed":false,"softLimit":null,"status":null},{"id":"5d827a7ae5f2452452024b06","name":"Hold","closed":false,"idBoard":"5d827a5980e2cc5d428124bb","pos":262143,"subscribed":false,"softLimit":null,"status":null},{"id":"5d827ab98ce86e66f24481cb","name":"Index","closed":false,"idBoard":"5d827a5980e2cc5d428124bb","pos":327679,"subscribed":false,"softLimit":null,"status":null}]'
+  recorded_at: Wed, 10 May 2023 15:48:59 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/lists/5d827a76697221209f1476a9/cards?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:49:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=b205abe4a5f764cf5b66511a8a38cd3b4974dab1414c2b90c49725018379ecfd; Path=/;
+        Expires=Wed, 24 May 2023 15:49:00 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '99'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '299'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '374'
+      X-Server-Time:
+      - '1683733740224'
+      X-Trello-Actual-Fastget-Path:
+      - fast
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - b4dfd6c2361d6306
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaWQiOiI1ZDllMDgwZDlkYzM4OTUwMTI3Zjc3OGYiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOmZhbHNlLCJmb2didWd6IjoiIiwiY2hlY2tJdGVtcyI6MCwiY2hlY2tJdGVtc0NoZWNrZWQiOjAsImNvbW1lbnRzIjowLCJhdHRhY2htZW50cyI6MCwiZGVzY3JpcHRpb24iOnRydWUsImR1ZSI6bnVsbCwiZHVlQ29tcGxldGUiOmZhbHNlLCJjaGVja0l0ZW1zRWFybGllc3REdWUiOm51bGwsInN0YXJ0IjpudWxsfSwiY2hlY2tJdGVtU3RhdGVzIjpudWxsLCJjbG9zZWQiOmZhbHNlLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImRhdGVMYXN0QWN0aXZpdHkiOiIyMDIxLTA3LTEzVDEyOjE2OjEzLjgyMloiLCJkZXNjIjoiaHR0cHM6Ly9naXRodWIuY29tL3lvc2hva3UvcnVtYWxlXG5UaGlzIHNlZW1zIHRvIGJlIGEgcHJvbWlzaW5nIGZyYW1ld29yayBmb3IgTWFjaGluZSBMZWFybmluZyBpbiBSdWJ5LiBJdCB3b3VsZCBiZSBpbnRlcmVzdGluZyB0byB0cnkgaXQgb3V0IGluIHRoZSBmdXR1cmUsIHNob3VsZCB3ZSBuZWVkIGl0LiIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbXSwiaWRNZW1iZXJzVm90ZWQiOltdLCJpZFNob3J0Ijo0NSwiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzAiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlByb2dyYW1taW5nIExhbmd1YWdlcyBhbmQgRnJhbWV3b3JrcyIsImNvbG9yIjoiZ3JlZW4ifV0sImlkTGFiZWxzIjpbIjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MCJdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiUnVtYWxlIiwicG9zIjozMjc2Ny41LCJzaG9ydExpbmsiOiJ2Vk9aUDBOeSIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvdlZPWlAwTnkiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6ZmFsc2UsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL3ZWT1pQME55LzQ1LXJ1bWFsZSIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDgyN2IwZmM5OGM4NDZjMTk2MzhiOTIiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTItMDNUMDk6NTM6MTMuODQ3WiIsImRlc2MiOiJEZXBsb3kgSGFwcHlcblxuQXBwbGljYXRpb24gZGV2ZWxvcGVycyBldmVyeXdoZXJlIHNwZW5kIHRvbyBtdWNoIHRpbWUgdGhpbmtpbmcgYWJvdXQgdXB0aW1lLCBzZWN1cml0eSBhbmQgc3BlZWQuICIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyIsIjVhOTlhOGJiOGM0NzY3OTg1NjdlNzdjNSJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjEsImlkQXR0YWNobWVudENvdmVyIjpudWxsLCJsYWJlbHMiOlt7ImlkIjoiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIiwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsIm5hbWUiOiJUb29scyIsImNvbG9yIjoieWVsbG93In1dLCJpZExhYmVscyI6WyI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzEiXSwibWFudWFsQ292ZXJBdHRhY2htZW50IjpmYWxzZSwibmFtZSI6IkNsb3VkNjYiLCJwb3MiOjY1NTM1LCJzaG9ydExpbmsiOiJ0Y2dlVzVXMiIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvdGNnZVc1VzIiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6dHJ1ZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvdGNnZVc1VzIvMS1jbG91ZDY2IiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjVkODI3YjYxODBiODA4NTRlZTJjYzNiMSIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6dHJ1ZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjpmYWxzZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTItMDNUMDk6NTM6MDYuNDE2WiIsImRlc2MiOiIiLCJkZXNjRGF0YSI6bnVsbCwiZHVlIjpudWxsLCJkdWVSZW1pbmRlciI6bnVsbCwiZW1haWwiOm51bGwsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJpZENoZWNrbGlzdHMiOltdLCJpZExpc3QiOiI1ZDgyN2E3NjY5NzIyMTIwOWYxNDc2YTkiLCJpZE1lbWJlcnMiOlsiNTA2YzA0ZTkxYzA3NTgxYTdmMDRjZWJjIiwiNWE5OWE4YmI4YzQ3Njc5ODU2N2U3N2M1Il0sImlkTWVtYmVyc1ZvdGVkIjpbXSwiaWRTaG9ydCI6NCwiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzEiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlRvb2xzIiwiY29sb3IiOiJ5ZWxsb3cifV0sImlkTGFiZWxzIjpbIjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSJdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiR2l0bGFiIiwicG9zIjoxOTY2MDcsInNob3J0TGluayI6ImdFNHppaWNpIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9nRTR6aWljaSIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjp0cnVlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy9nRTR6aWljaS80LWdpdGxhYiIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDgyN2MwOThkYjk4ZDRmOTYwNWJhODUiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6ZmFsc2UsImR1ZSI6bnVsbCwiZHVlQ29tcGxldGUiOmZhbHNlLCJjaGVja0l0ZW1zRWFybGllc3REdWUiOm51bGwsInN0YXJ0IjpudWxsfSwiY2hlY2tJdGVtU3RhdGVzIjpudWxsLCJjbG9zZWQiOmZhbHNlLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImRhdGVMYXN0QWN0aXZpdHkiOiIyMDIxLTA3LTEzVDEyOjE2OjEzLjcyM1oiLCJkZXNjIjoiIiwiZGVzY0RhdGEiOm51bGwsImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyIsIjVhOTlhOGJiOGM0NzY3OTg1NjdlNzdjNSJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjEyLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MCIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiUHJvZ3JhbW1pbmcgTGFuZ3VhZ2VzIGFuZCBGcmFtZXdvcmtzIiwiY29sb3IiOiJncmVlbiJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcwIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJQeXRob24iLCJwb3MiOjI2MjE0Mywic2hvcnRMaW5rIjoiM05JTkNkRjEiLCJzaG9ydFVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jLzNOSU5DZEYxIiwic3RhcnQiOm51bGwsInN1YnNjcmliZWQiOnRydWUsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jLzNOSU5DZEYxLzEyLXB5dGhvbiIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDgzMDQ0ZTAyYWJjYTM5MTk2NzQxZGUiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOmZhbHNlLCJmb2didWd6IjoiIiwiY2hlY2tJdGVtcyI6MCwiY2hlY2tJdGVtc0NoZWNrZWQiOjAsImNvbW1lbnRzIjowLCJhdHRhY2htZW50cyI6MCwiZGVzY3JpcHRpb24iOnRydWUsImR1ZSI6bnVsbCwiZHVlQ29tcGxldGUiOmZhbHNlLCJjaGVja0l0ZW1zRWFybGllc3REdWUiOm51bGwsInN0YXJ0IjpudWxsfSwiY2hlY2tJdGVtU3RhdGVzIjpudWxsLCJjbG9zZWQiOmZhbHNlLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImRhdGVMYXN0QWN0aXZpdHkiOiIyMDE5LTA5LTE5VDA1OjQzOjA2LjE2NFoiLCJkZXNjIjoiTGlrZSBBV1MgbGFtYmRhIGJ1dCB3aGl0ZW91dCBjb25zdHJhaW50c1xuXG5odHRwczovL3d3dy5sZWFybmF3cy5vcmcvMjAxOS8wOS8xNC9kZWVwLWRpdmUtYXdzLWZhcmdhdGUvIiwiZGVzY0RhdGEiOnsiZW1vamkiOnt9fSwiZHVlIjpudWxsLCJkdWVSZW1pbmRlciI6LTEsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwYTBlNzJjOGJlYjZmMGMyYTAwOTdmNiJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjI2LCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MiIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiUGxhdGZvcm1zIiwiY29sb3IiOiJvcmFuZ2UifV0sImlkTGFiZWxzIjpbIjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MiJdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiQVdTIEZhcmdhdGUiLCJwb3MiOjM5MzIxNSwic2hvcnRMaW5rIjoiRG1iN2gyWlIiLCJzaG9ydFVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL0RtYjdoMlpSIiwic3RhcnQiOm51bGwsInN1YnNjcmliZWQiOmZhbHNlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy9EbWI3aDJaUi8yNi1hd3MtZmFyZ2F0ZSIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDgzMTU2ZjBjZmIwYzIzYTA0NzE3NTIiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMDktMTlUMjE6MTQ6NDIuOTk3WiIsImRlc2MiOiJodHRwczovL25lbzRqLmNvbS8iLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjpudWxsLCJlbWFpbCI6bnVsbCwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsImlkQ2hlY2tsaXN0cyI6W10sImlkTGlzdCI6IjVkODI3YTc2Njk3MjIxMjA5ZjE0NzZhOSIsImlkTWVtYmVycyI6WyI1MDZjMDRlOTFjMDc1ODFhN2YwNGNlYmMiXSwiaWRNZW1iZXJzVm90ZWQiOltdLCJpZFNob3J0IjoyOCwiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzEiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlRvb2xzIiwiY29sb3IiOiJ5ZWxsb3cifV0sImlkTGFiZWxzIjpbIjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSJdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiTmVvNGoiLCJwb3MiOjQ1ODc1MSwic2hvcnRMaW5rIjoiUnBZNTRHZTQiLCJzaG9ydFVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL1JwWTU0R2U0Iiwic3RhcnQiOm51bGwsInN1YnNjcmliZWQiOnRydWUsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL1JwWTU0R2U0LzI4LW5lbzRqIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjVkODg5YWFiZTA3NzhiMTExNDUwMjRmYSIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6ZmFsc2UsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjEsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTItMDNUMTA6MDY6NDIuMTExWiIsImRlc2MiOiJodHRwczovL2dpdGh1Yi5jb20vTmV0ZmxpeC9FVkNhY2hlIiwiZGVzY0RhdGEiOnsiZW1vamkiOnt9fSwiZHVlIjpudWxsLCJkdWVSZW1pbmRlciI6LTEsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwYTBlNzJjOGJlYjZmMGMyYTAwOTdmNiJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjMyLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJFVkNhY2hlIiwicG9zIjo0NzUxMzUsInNob3J0TGluayI6ImdUNFlHdTFrIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9nVDRZR3UxayIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvZ1Q0WUd1MWsvMzItZXZjYWNoZSIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDhiMDgwNWEwMDc1MTZlZjQ3OGYyOWUiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTAtMDFUMTg6MTU6MzMuMzc2WiIsImRlc2MiOiJBIHdyYXBwZXIgYXJvdW5kIHdlYnBhY2sgdG8gbWFrZSBpdCBtb3JlIHVzYWJsZS5cblxuaHR0cHM6Ly9naXRodWIuY29tL0tpZGtBcm9saXMvamV0cGFjayIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjM3LCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbXSwiaWRMYWJlbHMiOltdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiSmV0cGFjayIsInBvcyI6NTQwNjcxLCJzaG9ydExpbmsiOiIzMThTejZCRyIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMzE4U3o2QkciLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6dHJ1ZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMzE4U3o2QkcvMzctamV0cGFjayIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDhiYTc5ZjBmMjkxODJkZTJhYTVjNTEiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjEsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMjEtMDctMTNUMTI6MTY6MTMuNzYwWiIsImRlc2MiOiJodHRwczovL2hhbmFtaXJiLm9yZy9cblxuVGhpcyBzZWVtcyB0byBiZSBhbiBpbnRlcmVzdGluZyBhbHRlcm5hdGl2ZSB0byBSYWlscy4iLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjpudWxsLCJlbWFpbCI6bnVsbCwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsImlkQ2hlY2tsaXN0cyI6W10sImlkTGlzdCI6IjVkODI3YTc2Njk3MjIxMjA5ZjE0NzZhOSIsImlkTWVtYmVycyI6W10sImlkTWVtYmVyc1ZvdGVkIjpbXSwiaWRTaG9ydCI6MzgsImlkQXR0YWNobWVudENvdmVyIjpudWxsLCJsYWJlbHMiOlt7ImlkIjoiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcwIiwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsIm5hbWUiOiJQcm9ncmFtbWluZyBMYW5ndWFnZXMgYW5kIEZyYW1ld29ya3MiLCJjb2xvciI6ImdyZWVuIn1dLCJpZExhYmVscyI6WyI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzAiXSwibWFudWFsQ292ZXJBdHRhY2htZW50IjpmYWxzZSwibmFtZSI6IkhhbmFtaSIsInBvcyI6NjA2MjA3LCJzaG9ydExpbmsiOiJweTE5Ym44RiIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvcHkxOWJuOEYiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6dHJ1ZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvcHkxOWJuOEYvMzgtaGFuYW1pIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjVkOTRhNjE3YTAzOTI0MDdjNDI0ZGMxOSIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6dHJ1ZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAyMS0wNy0xM1QxMjoxNjoxMy43OTVaIiwiZGVzYyI6IkNoZWFwIHNvbHV0aW9uIHRvIG91ciBydWJ5IGFuYWx5emlzLiIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjQ0LCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJSdWJ5Q3JpdGljIiwicG9zIjo4MDI4MTUsInNob3J0TGluayI6Im1OSEJCWktjIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9tTkhCQlpLYyIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjp0cnVlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy9tTkhCQlpLYy80NC1ydWJ5Y3JpdGljIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjVkYTZhNTZhZGEzMzUwMmVlYWMxNTBjYyIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6dHJ1ZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAxOS0xMC0xNlQwNTowODoxNy43NzFaIiwiZGVzYyI6IkFzIG1pY3Jvc2VydmljZXMgYmVjb21lIG1vcmUgYW5kIG1vcmUgcHJlbGV2YW50LCBodHRwczovL2V2ZW50aWRlLXByb2plY3Qub3JnLyBpcyBhIGZyYW1ld29yayBmb3IgcnVieSB0byBoZWxwIHdyaXRpbmcgdGhlbS5cblxuVGhleSBhbHNvIGhhdmUgYSBzbGFjayBjaGFubmVsIGFuZCBhIGJsb2cgdGhleSB1c2UgaHR0cHM6Ly9ibG9nLmV2ZW50aWRlLXByb2plY3Qub3JnLyIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjQ2LCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJFdmVudGlkZSIsInBvcyI6ODY4MzUxLCJzaG9ydExpbmsiOiIxejJzNWpTZiIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMXoyczVqU2YiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6dHJ1ZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMXoyczVqU2YvNDYtZXZlbnRpZGUiLCJjb3ZlciI6eyJpZEF0dGFjaG1lbnQiOm51bGwsImNvbG9yIjpudWxsLCJpZFVwbG9hZGVkQmFja2dyb3VuZCI6bnVsbCwic2l6ZSI6Im5vcm1hbCIsImJyaWdodG5lc3MiOiJsaWdodCIsImlkUGx1Z2luIjpudWxsfSwiaXNUZW1wbGF0ZSI6ZmFsc2UsImNhcmRSb2xlIjpudWxsfSx7ImlkIjoiNWRhOGMwZjU4N2VkMTY3NWU5ZmM0Mjc3IiwiYmFkZ2VzIjp7ImF0dGFjaG1lbnRzQnlUeXBlIjp7InRyZWxsbyI6eyJib2FyZCI6MCwiY2FyZCI6MH19LCJsb2NhdGlvbiI6ZmFsc2UsInZvdGVzIjowLCJ2aWV3aW5nTWVtYmVyVm90ZWQiOmZhbHNlLCJzdWJzY3JpYmVkIjpmYWxzZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAyMy0wMy0wNlQxMjozMjo1OS4wMjZaIiwiZGVzYyI6Imh0dHBzOi8vd2ViYXNzZW1ibHkub3JnLyAtIENvbXBpbGUgY29kZSBhbmQgcnVuIGluIHRoZSBicm93c2VyIG5leHQgdG8gSlMiLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjpudWxsLCJlbWFpbCI6bnVsbCwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsImlkQ2hlY2tsaXN0cyI6W10sImlkTGlzdCI6IjVkODI3YTc2Njk3MjIxMjA5ZjE0NzZhOSIsImlkTWVtYmVycyI6WyI1MGEwZTcyYzhiZWI2ZjBjMmEwMDk3ZjYiXSwiaWRNZW1iZXJzVm90ZWQiOltdLCJpZFNob3J0Ijo0NywiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzAiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlByb2dyYW1taW5nIExhbmd1YWdlcyBhbmQgRnJhbWV3b3JrcyIsImNvbG9yIjoiZ3JlZW4ifV0sImlkTGFiZWxzIjpbIjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MCJdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiV0FTTSIsInBvcyI6OTMzODg3LCJzaG9ydExpbmsiOiIwU0tta2dMMiIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMFNLbWtnTDIiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6ZmFsc2UsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jLzBTS21rZ0wyLzQ3LXdhc20iLCJjb3ZlciI6eyJpZEF0dGFjaG1lbnQiOm51bGwsImNvbG9yIjpudWxsLCJpZFVwbG9hZGVkQmFja2dyb3VuZCI6bnVsbCwic2l6ZSI6Im5vcm1hbCIsImJyaWdodG5lc3MiOiJsaWdodCIsImlkUGx1Z2luIjpudWxsfSwiaXNUZW1wbGF0ZSI6ZmFsc2UsImNhcmRSb2xlIjpudWxsfSx7ImlkIjoiNWRhOGMwZjg0YWEzNmE3ZTdhOWJhZTcwIiwiYmFkZ2VzIjp7ImF0dGFjaG1lbnRzQnlUeXBlIjp7InRyZWxsbyI6eyJib2FyZCI6MCwiY2FyZCI6MH19LCJsb2NhdGlvbiI6ZmFsc2UsInZvdGVzIjowLCJ2aWV3aW5nTWVtYmVyVm90ZWQiOmZhbHNlLCJzdWJzY3JpYmVkIjpmYWxzZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAxOS0xMC0xN1QxOTozMjo0Ny43NjJaIiwiZGVzYyI6IlByb2dyZXNzaXZlIHdlYiBhcHBzIGFyZSB3ZWJzaXRlcyB0aGF0IGxvb2sgYW5kIGZlZWwgbGlrZSBhbiBhcHAuIFRoaXMgbWVhbnMgdXNlcnMgY2FuIGFjY2VzcyBhbGwgaW5mb3JtYXRpb24gYW5kIGNhcGFiaWxpdGllcyB3aXRob3V0IGRvd25sb2FkaW5nIGEgbW9iaWxlIGFwcC4gSW5zdGVhZCwgcHJvZ3Jlc3NpdmUgd2ViIGFwcHMgdXNlIG1vZGVybiB3ZWIgdGVjaG5vbG9neSB0byBkZWxpdmVyIGFwcC1saWtlIGV4cGVyaWVuY2VzIHRvIHVzZXJzLCByaWdodCBpbiB0aGVpciBicm93c2Vycy4iLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjpudWxsLCJlbWFpbCI6bnVsbCwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsImlkQ2hlY2tsaXN0cyI6W10sImlkTGlzdCI6IjVkODI3YTc2Njk3MjIxMjA5ZjE0NzZhOSIsImlkTWVtYmVycyI6WyI1MGEwZTcyYzhiZWI2ZjBjMmEwMDk3ZjYiXSwiaWRNZW1iZXJzVm90ZWQiOltdLCJpZFNob3J0Ijo0OCwiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzYiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlRlY2huaXF1ZXMiLCJjb2xvciI6InB1cnBsZSJ9LHsiaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzIiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlBsYXRmb3JtcyIsImNvbG9yIjoib3JhbmdlIn1dLCJpZExhYmVscyI6WyI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzYiLCI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzIiXSwibWFudWFsQ292ZXJBdHRhY2htZW50IjpmYWxzZSwibmFtZSI6IlByb2dyZXNzaXZlV2ViQXBwcyIsInBvcyI6OTk5NDIzLCJzaG9ydExpbmsiOiJjZk56eGxIQSIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvY2ZOenhsSEEiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6ZmFsc2UsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL2NmTnp4bEhBLzQ4LXByb2dyZXNzaXZld2ViYXBwcyIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZDkzOTgzNTI2OTQ2NTAyZmUwMzYxYmUiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOnRydWUsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTAtMThUMTE6MDA6MDguNzk2WiIsImRlc2MiOiJUaGVyZSBhcmUgbnVtZXJvcyBiZW5lZml0cyB0byB0aGlzLiIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwNmMwNGU5MWMwNzU4MWE3ZjA0Y2ViYyJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjQzLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3NiIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVGVjaG5pcXVlcyIsImNvbG9yIjoicHVycGxlIn1dLCJpZExhYmVscyI6WyI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzYiXSwibWFudWFsQ292ZXJBdHRhY2htZW50IjpmYWxzZSwibmFtZSI6IlBhaXIgcHJvZ3JhbW1pbmciLCJwb3MiOjEwNjQ5NTksInNob3J0TGluayI6IklFRnk3U0ZzIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9JRUZ5N1NGcyIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjp0cnVlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy9JRUZ5N1NGcy80My1wYWlyLXByb2dyYW1taW5nIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjVkYzQzZGIyMDZiYTliMTkwNTBiNGZmYiIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6ZmFsc2UsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMTktMTEtMDdUMTU6NTM6MDMuODk3WiIsImRlc2MiOiJodHRwczovL2RmaW5pdHkub3JnL1xuXG5BdXRvbm91cyBzb2Z0d2FyZVxuU2VjdXJpdHkgYnkgZGVmYXVsdFxuRnJlZWluZyBjYXB0aXZlIGN1c3RvbWVyc1xuUmVkdWNpbmcgY29tcGxleGl0eVxuIiwiZGVzY0RhdGEiOnsiZW1vamkiOnt9fSwiZHVlIjpudWxsLCJkdWVSZW1pbmRlciI6bnVsbCwiZW1haWwiOm51bGwsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJpZENoZWNrbGlzdHMiOltdLCJpZExpc3QiOiI1ZDgyN2E3NjY5NzIyMTIwOWYxNDc2YTkiLCJpZE1lbWJlcnMiOltdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjUwLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbXSwiaWRMYWJlbHMiOltdLCJtYW51YWxDb3ZlckF0dGFjaG1lbnQiOmZhbHNlLCJuYW1lIjoiSW50ZXJuZXQgY29tcHV0ZXIiLCJwb3MiOjExMzA0OTUsInNob3J0TGluayI6InVPM094T21MIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy91TzNPeE9tTCIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvdU8zT3hPbUwvNTAtaW50ZXJuZXQtY29tcHV0ZXIiLCJjb3ZlciI6eyJpZEF0dGFjaG1lbnQiOm51bGwsImNvbG9yIjpudWxsLCJpZFVwbG9hZGVkQmFja2dyb3VuZCI6bnVsbCwic2l6ZSI6Im5vcm1hbCIsImJyaWdodG5lc3MiOiJsaWdodCIsImlkUGx1Z2luIjpudWxsfSwiaXNUZW1wbGF0ZSI6ZmFsc2UsImNhcmRSb2xlIjpudWxsfSx7ImlkIjoiNWRkZDI3NzQ2NjM3MGUzZjgwZjkyNDk4IiwiYmFkZ2VzIjp7ImF0dGFjaG1lbnRzQnlUeXBlIjp7InRyZWxsbyI6eyJib2FyZCI6MCwiY2FyZCI6MH19LCJsb2NhdGlvbiI6ZmFsc2UsInZvdGVzIjowLCJ2aWV3aW5nTWVtYmVyVm90ZWQiOmZhbHNlLCJzdWJzY3JpYmVkIjpmYWxzZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAxOS0xMS0yNlQxMzozMTo0OS45NDdaIiwiZGVzYyI6Imh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0J1c2luZXNzX1Byb2Nlc3NfTW9kZWxfYW5kX05vdGF0aW9uXG5cbkphdmEgaW1wbGVtZW50YXRpb246IGh0dHBzOi8vd3d3LmZsb3dhYmxlLm9yZy9kb2N1bWVudGF0aW9uLmh0bWxcblJ1Ynk6IGh0dHA6Ly90cmFpbGJsYXplci50by9nZW1zL3dvcmtmbG93L2NpcmN1aXQuaHRtbCIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjUwYTBlNzJjOGJlYjZmMGMyYTAwOTdmNiJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjUyLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MCIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiUHJvZ3JhbW1pbmcgTGFuZ3VhZ2VzIGFuZCBGcmFtZXdvcmtzIiwiY29sb3IiOiJncmVlbiJ9LHsiaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzYiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlRlY2huaXF1ZXMiLCJjb2xvciI6InB1cnBsZSJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcwIiwiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjc2Il0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJCUE1OIiwicG9zIjoxMTk2MDMxLCJzaG9ydExpbmsiOiJEQUIxU1Y5MSIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvREFCMVNWOTEiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6ZmFsc2UsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jL0RBQjFTVjkxLzUyLWJwbW4iLCJjb3ZlciI6eyJpZEF0dGFjaG1lbnQiOm51bGwsImNvbG9yIjpudWxsLCJpZFVwbG9hZGVkQmFja2dyb3VuZCI6bnVsbCwic2l6ZSI6Im5vcm1hbCIsImJyaWdodG5lc3MiOiJsaWdodCIsImlkUGx1Z2luIjpudWxsfSwiaXNUZW1wbGF0ZSI6ZmFsc2UsImNhcmRSb2xlIjpudWxsfSx7ImlkIjoiNWRjOTgxOWIzOWQzYjk1YjA2MWQxYzVlIiwiYmFkZ2VzIjp7ImF0dGFjaG1lbnRzQnlUeXBlIjp7InRyZWxsbyI6eyJib2FyZCI6MCwiY2FyZCI6MH19LCJsb2NhdGlvbiI6ZmFsc2UsInZvdGVzIjowLCJ2aWV3aW5nTWVtYmVyVm90ZWQiOmZhbHNlLCJzdWJzY3JpYmVkIjpmYWxzZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAyMS0wNy0xM1QxMjoxNjoxMy44NDZaIiwiZGVzYyI6Imh0dHBzOi8vd3d3LnRlc3Rjb250YWluZXJzLm9yZy9cblxuVGhpcywgYXMgdGhlIG5hbWUgc3VnZ2VzdHMsIGlzIGEgbGlicmFyeSB0aGF0IHByb3ZpZGVzIGRpc3Bvc2FibGUgRG9ja2VyIGNvbnRhaW5lcnMgZm9yIHRlc3RzLiBUaGUgaWRlYSBpcyB0byBiZSBhYmxlIHRvIHN0YXJ0IHRoZW0gZnJvbSBjb2RlLiBJdCBwcm92aWRlcyBvdXQgb2YgdGhlIGJveCBzdXBwb3J0IChjbGFzc2VzKSBmb3IgYSBmZXcgcG9wdWxhciBkYXRhIHN0b3Jlcywgb3IgeW91IGNhbiBzcGluIHVwIHlvdXIgb3duIGZyb20gYW4gaW1hZ2UgYW5kIHNldCBpdCB1cCB0aGUgd2F5IHlvdSBsaWtlLiBZb3UgY2FuIGFsc28gbG9hZCB5b3VyIHNldHVwIGZyb20gZG9ja2VyLWNvbXBvc2UgZmlsZXMuXG5cbkl0IGRvZXNuJ3QgZXZlbiBjb21wb3NlIGxvY2FsbHksIGFzIGl0IGFwcGFyZW50bHkgc3BpbnMgdXAgYSBkb2NrZXIgY29tcG9zZSBjb250YWluZXIgdGhhdCBjb21wb3NlcyB0aGluZ3MgaW50ZXJuYWxseSwgc28gdGhlIG9ubHkgcmVxdWlyZW1lbnQgaXMgRG9ja2VyLlxuXG5JIHN0YXJ0ZWQgdHJpYWxpbmcgaXQgaW4gU3RhcmdhdGUgaXQgYW5kIGl0IHNlZW1zIHRvIGJlIGEgc3VjY2VzcyBzbyBmYXIuIiwiZGVzY0RhdGEiOnsiZW1vamkiOnt9fSwiZHVlIjpudWxsLCJkdWVSZW1pbmRlciI6bnVsbCwiZW1haWwiOm51bGwsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJpZENoZWNrbGlzdHMiOltdLCJpZExpc3QiOiI1ZDgyN2E3NjY5NzIyMTIwOWYxNDc2YTkiLCJpZE1lbWJlcnMiOltdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjUxLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJUZXN0Y29udGFpbmVycyIsInBvcyI6MTI2MTU2Nywic2hvcnRMaW5rIjoiN1FhTmZwQUQiLCJzaG9ydFVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jLzdRYU5mcEFEIiwic3RhcnQiOm51bGwsInN1YnNjcmliZWQiOmZhbHNlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy83UWFOZnBBRC81MS10ZXN0Y29udGFpbmVycyIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImxpZ2h0IiwiaWRQbHVnaW4iOm51bGx9LCJpc1RlbXBsYXRlIjpmYWxzZSwiY2FyZFJvbGUiOm51bGx9LHsiaWQiOiI1ZjE5NGQwNTNmM2RkYjYzODczMWVlNGIiLCJiYWRnZXMiOnsiYXR0YWNobWVudHNCeVR5cGUiOnsidHJlbGxvIjp7ImJvYXJkIjowLCJjYXJkIjowfX0sImxvY2F0aW9uIjpmYWxzZSwidm90ZXMiOjAsInZpZXdpbmdNZW1iZXJWb3RlZCI6ZmFsc2UsInN1YnNjcmliZWQiOmZhbHNlLCJmb2didWd6IjoiIiwiY2hlY2tJdGVtcyI6MCwiY2hlY2tJdGVtc0NoZWNrZWQiOjAsImNoZWNrSXRlbXNFYXJsaWVzdER1ZSI6bnVsbCwiY29tbWVudHMiOjAsImF0dGFjaG1lbnRzIjowLCJkZXNjcmlwdGlvbiI6dHJ1ZSwiZHVlIjpudWxsLCJkdWVDb21wbGV0ZSI6ZmFsc2UsInN0YXJ0IjpudWxsfSwiY2hlY2tJdGVtU3RhdGVzIjpudWxsLCJjbG9zZWQiOmZhbHNlLCJkdWVDb21wbGV0ZSI6ZmFsc2UsImRhdGVMYXN0QWN0aXZpdHkiOiIyMDIwLTA3LTIzVDA4OjQwOjU5LjIzN1oiLCJkZXNjIjoiV2hhdCBpdCBpczpcbmh0dHBzOi8vZ2l0aHViLmNvbS9qYWt1Ym5hYnJkYWxpay9hcmNoaXRlY3R1cmUtZ3VpbGQiLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjpudWxsLCJlbWFpbCI6bnVsbCwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsImlkQ2hlY2tsaXN0cyI6W10sImlkTGlzdCI6IjVkODI3YTc2Njk3MjIxMjA5ZjE0NzZhOSIsImlkTWVtYmVycyI6WyI1MGEwZTcyYzhiZWI2ZjBjMmEwMDk3ZjYiXSwiaWRNZW1iZXJzVm90ZWQiOltdLCJpZFNob3J0Ijo2MCwiaWRBdHRhY2htZW50Q292ZXIiOm51bGwsImxhYmVscyI6W3siaWQiOiI1ZDgyN2E1OWFmOTg4YzQxZjI5MTFmNzYiLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwibmFtZSI6IlRlY2huaXF1ZXMiLCJjb2xvciI6InB1cnBsZSJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjc2Il0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJBcmNoaXRlY3R1cmUgR3VpbGQiLCJwb3MiOjEzMjcxMDMsInNob3J0TGluayI6ImxEYndXSlVpIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9sRGJ3V0pVaSIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvbERid1dKVWkvNjAtYXJjaGl0ZWN0dXJlLWd1aWxkIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoibGlnaHQiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjYzZmM2ODRiYTMyNTBmYzc0MDA3NzZkNyIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6ZmFsc2UsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJjb21tZW50cyI6MCwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMjMtMDItMjdUMDk6NTY6NTkuMTE2WiIsImRlc2MiOiJbaHR0cHM6Ly93d3cubW9iaWxlLmRldi9dKGh0dHBzOi8vd3d3Lm1vYmlsZS5kZXYvIFwic21hcnRDYXJkLWlubGluZVwiKSAgLSB0b29sIHRvIGNyZWF0ZSBhdXRvbWF0ZWQgVUkgdGVzdHMgZm9yIG1vYmlsZSBhcHBzLiIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjYwZWYwMWRhOTJhMTMyNGViZGQ4YzZmZiJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjY2LCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJNb2JpbGUuZGV2IiwicG9zIjoxMzkyNjM5LCJzaG9ydExpbmsiOiIxR2hGamtPMiIsInNob3J0VXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvMUdoRmprTzIiLCJzdGFydCI6bnVsbCwic3Vic2NyaWJlZCI6ZmFsc2UsInVybCI6Imh0dHBzOi8vdHJlbGxvLmNvbS9jLzFHaEZqa08yLzY2LW1vYmlsZWRldiIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImRhcmsiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjY0MDRkY2IyMzAzM2Q1YzI3NjI0Njg3NSIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6dHJ1ZSwiZm9nYnVneiI6IiIsImNoZWNrSXRlbXMiOjAsImNoZWNrSXRlbXNDaGVja2VkIjowLCJjaGVja0l0ZW1zRWFybGllc3REdWUiOm51bGwsImNvbW1lbnRzIjowLCJhdHRhY2htZW50cyI6MCwiZGVzY3JpcHRpb24iOnRydWUsImR1ZSI6bnVsbCwiZHVlQ29tcGxldGUiOmZhbHNlLCJzdGFydCI6bnVsbH0sImNoZWNrSXRlbVN0YXRlcyI6bnVsbCwiY2xvc2VkIjpmYWxzZSwiZHVlQ29tcGxldGUiOmZhbHNlLCJkYXRlTGFzdEFjdGl2aXR5IjoiMjAyMy0wMy0wNVQxODoxODoyOC42NzhaIiwiZGVzYyI6IlwiSSBrbm93IEkndmUgYmVlbiBkb3duIG9uIGNsb3VkIGxhdGVseSwgYnV0IEkgcmVhbGx5IGxpa2Ugd2hhdCAgRmx5LmlvIGlzIGRvaW5nLiBUaGUgSFRUUCB2ZXJiLWJhc2VkIHJlZ2lvbiBkaXN0cmlidXRpb24gaXMgYnJpbGxpYW50LCBpdCdzIGJ1aWx0IG9uIHN0b2NrIERvY2tlcmZpbGVzIHRoYXQgYXJlIGVhc3kgdG8gbWlncmF0ZSwgYW5kIHRoZXkgZW5nYWdlIHdpdGggdGhlIGVjb3N5c3RlbSDwn5GNXCJcblxuaHR0cHM6Ly90d2l0dGVyLmNvbS9kaGgvc3RhdHVzLzE2MzIwNDQxMDE0MTg3NDU4NjQ/dD1TeEhiXzV2M3Y5dmdJSUs3ZU1CT19RJnM9MTkiLCJkZXNjRGF0YSI6eyJlbW9qaSI6e319LCJkdWUiOm51bGwsImR1ZVJlbWluZGVyIjotMSwiZW1haWwiOm51bGwsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJpZENoZWNrbGlzdHMiOltdLCJpZExpc3QiOiI1ZDgyN2E3NjY5NzIyMTIwOWYxNDc2YTkiLCJpZE1lbWJlcnMiOlsiNTA2YzA0ZTkxYzA3NTgxYTdmMDRjZWJjIl0sImlkTWVtYmVyc1ZvdGVkIjpbXSwiaWRTaG9ydCI6NjksImlkQXR0YWNobWVudENvdmVyIjpudWxsLCJsYWJlbHMiOlt7ImlkIjoiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcyIiwiaWRCb2FyZCI6IjVkODI3YTU5ODBlMmNjNWQ0MjgxMjRiYiIsIm5hbWUiOiJQbGF0Zm9ybXMiLCJjb2xvciI6Im9yYW5nZSJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcyIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJGbHkuaW8iLCJwb3MiOjE0MDkwMjMsInNob3J0TGluayI6IkdYYWxUVVJaIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy9HWGFsVFVSWiIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjp0cnVlLCJ1cmwiOiJodHRwczovL3RyZWxsby5jb20vYy9HWGFsVFVSWi82OS1mbHlpbyIsImNvdmVyIjp7ImlkQXR0YWNobWVudCI6bnVsbCwiY29sb3IiOm51bGwsImlkVXBsb2FkZWRCYWNrZ3JvdW5kIjpudWxsLCJzaXplIjoibm9ybWFsIiwiYnJpZ2h0bmVzcyI6ImRhcmsiLCJpZFBsdWdpbiI6bnVsbH0sImlzVGVtcGxhdGUiOmZhbHNlLCJjYXJkUm9sZSI6bnVsbH0seyJpZCI6IjY0MjE4YTBhYTJkOTUzNGVlY2FjNmEyOCIsImJhZGdlcyI6eyJhdHRhY2htZW50c0J5VHlwZSI6eyJ0cmVsbG8iOnsiYm9hcmQiOjAsImNhcmQiOjB9fSwibG9jYXRpb24iOmZhbHNlLCJ2b3RlcyI6MCwidmlld2luZ01lbWJlclZvdGVkIjpmYWxzZSwic3Vic2NyaWJlZCI6ZmFsc2UsImZvZ2J1Z3oiOiIiLCJjaGVja0l0ZW1zIjowLCJjaGVja0l0ZW1zQ2hlY2tlZCI6MCwiY2hlY2tJdGVtc0VhcmxpZXN0RHVlIjpudWxsLCJjb21tZW50cyI6MSwiYXR0YWNobWVudHMiOjAsImRlc2NyaXB0aW9uIjp0cnVlLCJkdWUiOm51bGwsImR1ZUNvbXBsZXRlIjpmYWxzZSwic3RhcnQiOm51bGx9LCJjaGVja0l0ZW1TdGF0ZXMiOm51bGwsImNsb3NlZCI6ZmFsc2UsImR1ZUNvbXBsZXRlIjpmYWxzZSwiZGF0ZUxhc3RBY3Rpdml0eSI6IjIwMjMtMDQtMTlUMTE6NDk6MTcuNzk4WiIsImRlc2MiOiJbUmV0b29sLmNvbV0oaHR0cDovL1JldG9vbC5jb20gXCLigIxcIilcblxu4oCMXG5cbkxvb2tpbmcgZm9yIGEgdG9vbCAgd2hlcmUgd2UgY2FuIHBsdWcgaW4gd2l0aCBvdXIgZ29vZ2xlIHNwcmVhZHNoZWV0cyB0byBhdXRvbWF0ZSBkaWZmZXJlbnQgc2NlbmFyaW9zLlxuXG5SZWFkIGZyb20gc3ByZWFkc2hlZXRzIHRvIGhhdmUgdGhlbSBhdmFpbGFibGUgYXMgYW4gQVBJXG5cblJlYWQgZGF0YSBmcm9tIGV4dGVybmFsIEFQSXMgYW5kIHdyaXRlIHRoZW0gdG8gdGhlIGdvb2dsZSBzcHJlYWRzaGVldHMgKGUuZy4gRnJlc2hib29rcyBkYXRhLCBJTkcgZGF0YSlcblxuQXV0b21hdGUgd29ya2Zsb3dzIGJldHdlZW4gb3VyIHNwcmVhZHNoZWV0cyIsImRlc2NEYXRhIjp7ImVtb2ppIjp7fX0sImR1ZSI6bnVsbCwiZHVlUmVtaW5kZXIiOm51bGwsImVtYWlsIjpudWxsLCJpZEJvYXJkIjoiNWQ4MjdhNTk4MGUyY2M1ZDQyODEyNGJiIiwiaWRDaGVja2xpc3RzIjpbXSwiaWRMaXN0IjoiNWQ4MjdhNzY2OTcyMjEyMDlmMTQ3NmE5IiwiaWRNZW1iZXJzIjpbIjVmODY5Y2FjZDk3YzBkODM0M2VlOTY0OSIsIjVkMmM3NTZlMWRlOTkyNDdhNTljNTlkYyJdLCJpZE1lbWJlcnNWb3RlZCI6W10sImlkU2hvcnQiOjcwLCJpZEF0dGFjaG1lbnRDb3ZlciI6bnVsbCwibGFiZWxzIjpbeyJpZCI6IjVkODI3YTU5YWY5ODhjNDFmMjkxMWY3MSIsImlkQm9hcmQiOiI1ZDgyN2E1OTgwZTJjYzVkNDI4MTI0YmIiLCJuYW1lIjoiVG9vbHMiLCJjb2xvciI6InllbGxvdyJ9XSwiaWRMYWJlbHMiOlsiNWQ4MjdhNTlhZjk4OGM0MWYyOTExZjcxIl0sIm1hbnVhbENvdmVyQXR0YWNobWVudCI6ZmFsc2UsIm5hbWUiOiJSZXRvb2wiLCJwb3MiOjE0NzQ1NTksInNob3J0TGluayI6InQ3YlhtaHJEIiwic2hvcnRVcmwiOiJodHRwczovL3RyZWxsby5jb20vYy90N2JYbWhyRCIsInN0YXJ0IjpudWxsLCJzdWJzY3JpYmVkIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly90cmVsbG8uY29tL2MvdDdiWG1ockQvNzAtcmV0b29sIiwiY292ZXIiOnsiaWRBdHRhY2htZW50IjpudWxsLCJjb2xvciI6bnVsbCwiaWRVcGxvYWRlZEJhY2tncm91bmQiOm51bGwsInNpemUiOiJub3JtYWwiLCJicmlnaHRuZXNzIjoiZGFyayIsImlkUGx1Z2luIjpudWxsfSwiaXNUZW1wbGF0ZSI6ZmFsc2UsImNhcmRSb2xlIjpudWxsfV0=
+  recorded_at: Wed, 10 May 2023 15:49:00 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/lists/5d827a786616c90ae1d7aca0/cards?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:49:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=13e3a4b4e723fdaca7a072347fdee158a4bbbf7589bd164f657beb6a7011ef7f; Path=/;
+        Expires=Wed, 24 May 2023 15:49:00 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '98'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '298'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '373'
+      X-Server-Time:
+      - '1683733740661'
+      X-Trello-Actual-Fastget-Path:
+      - fast
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - b3cc89cdd1d930b8
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"5d827bd9c1c1e33bca4ed76c","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:19.282Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":9,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Elixir","pos":65535,"shortLink":"YAIrKiW6","shortUrl":"https://trello.com/c/YAIrKiW6","start":null,"subscribed":true,"url":"https://trello.com/c/YAIrKiW6/9-elixir","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827beb6f64445d1bebb551","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:18.331Z","desc":"https://www.netlify.com/","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":11,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f72","idBoard":"5d827a5980e2cc5d428124bb","name":"Platforms","color":"orange"}],"idLabels":["5d827a59af988c41f2911f72"],"manualCoverAttachment":false,"name":"Nettify","pos":196607,"shortLink":"jUo1uvhM","shortUrl":"https://trello.com/c/jUo1uvhM","start":null,"subscribed":true,"url":"https://trello.com/c/jUo1uvhM/11-nettify","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8302c7fb528f812e8dcb63","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-07-13T12:18:40.659Z","desc":"","descData":null,"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":23,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"Event
+        Sourcing / CQRS","pos":200703,"shortLink":"5Hm8oQtr","shortUrl":"https://trello.com/c/5Hm8oQtr","start":null,"subscribed":true,"url":"https://trello.com/c/5Hm8oQtr/23-event-sourcing-cqrs","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8dba17a98bbc155a951804","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-10-17T10:34:45.643Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":41,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"Visual
+        Regression Testing","pos":204799,"shortLink":"uxOIzFA9","shortUrl":"https://trello.com/c/uxOIzFA9","start":null,"subscribed":false,"url":"https://trello.com/c/uxOIzFA9/41-visual-regression-testing","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8db9fb6f689e23cb09be45","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-10-17T10:34:43.648Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":40,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"BackstopJS","pos":212991,"shortLink":"z8j9FWab","shortUrl":"https://trello.com/c/z8j9FWab","start":null,"subscribed":false,"url":"https://trello.com/c/z8j9FWab/40-backstopjs","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d83041de06284068f2416dc","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-07-13T12:16:13.871Z","desc":"Cache
+        that can scale horizontally and across regions","descData":{"emoji":{}},"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":25,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"DynamoDB","pos":229375,"shortLink":"thCTNhQF","shortUrl":"https://trello.com/c/thCTNhQF","start":null,"subscribed":false,"url":"https://trello.com/c/thCTNhQF/25-dynamodb","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d83c5e35a0af638e5c7f558","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-19T18:17:07.889Z","desc":"https://fullstaqruby.org/","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":29,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Fullstack
+        Ruby","pos":262143,"shortLink":"n7MlB3zr","shortUrl":"https://trello.com/c/n7MlB3zr","start":null,"subscribed":true,"url":"https://trello.com/c/n7MlB3zr/29-fullstack-ruby","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827d160cfb0c23a031ea38","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":2,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-07-07T03:45:55.190Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc","50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":15,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Kafka","pos":327679,"shortLink":"5fJPU0ll","shortUrl":"https://trello.com/c/5fJPU0ll","start":null,"subscribed":true,"url":"https://trello.com/c/5fJPU0ll/15-kafka","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d89f21a90054b5c476c79dd","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":3,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-10-27T17:19:57.307Z","desc":"","descData":null,"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":34,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"GraphQL","pos":409599,"shortLink":"kYw9Vxlk","shortUrl":"https://trello.com/c/kYw9Vxlk","start":null,"subscribed":false,"url":"https://trello.com/c/kYw9Vxlk/34-graphql","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d89f21e83d77f36f7462759","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-10-20T06:06:35.826Z","desc":"Pros\n\n-
+        when it comes to REST api''s I don''t see any other spec out there \n\nCons\n\n-
+        does not seem so have good comunity supporr\n- some mobile support is missing
+        (ios)","descData":{"emoji":{}},"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["50a0e72c8beb6f0c2a0097f6","506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":35,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"JSONAPI","pos":425983,"shortLink":"JTtlSkqv","shortUrl":"https://trello.com/c/JTtlSkqv","start":null,"subscribed":true,"url":"https://trello.com/c/JTtlSkqv/35-jsonapi","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8a249f8971c04d25f46aac","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-07-13T12:16:13.902Z","desc":"Trialing
+        KeyBase together with Marek as a replacement for Slack\n\nhttps://keybase.io","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["4f560ed0354bce507c9d4215"],"idMembersVoted":[],"idShort":36,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"KeyBase","pos":491519,"shortLink":"hc0dFTcr","shortUrl":"https://trello.com/c/hc0dFTcr","start":null,"subscribed":false,"url":"https://trello.com/c/hc0dFTcr/36-keybase","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d9398079c566168235700d7","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-12-03T10:15:30.239Z","desc":"CI
+        like you mean it, I am talking full deployment to production with feature
+        flags and master only commits.","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc","5a99a8bb8c476798567e77c5"],"idMembersVoted":[],"idShort":42,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"CI","pos":557055,"shortLink":"aLYZ5Qbq","shortUrl":"https://trello.com/c/aLYZ5Qbq","start":null,"subscribed":true,"url":"https://trello.com/c/aLYZ5Qbq/42-ci","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5e43dbc64507c268e7447be5","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":2,"attachments":0,"description":false,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-10-18T13:04:53.212Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":[],"idMembersVoted":[],"idShort":57,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Flutter
+        for web","pos":819199,"shortLink":"dUrtip9t","shortUrl":"https://trello.com/c/dUrtip9t","start":null,"subscribed":true,"url":"https://trello.com/c/dUrtip9t/57-flutter-for-web","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"60e5238108cdda71f0b2ac55","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":3,"attachments":0,"description":true,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-10-18T13:08:41.969Z","desc":"https://golang.org/
+        is a fast compiled language, it has a very simple syntax and some intresting
+        ways to handle mutability and errors that make it very reliable.\n\nPrefer
+        go to c / c++","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":[],"idMembersVoted":[],"idShort":63,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"GO","pos":1458175,"shortLink":"yergXDav","shortUrl":"https://trello.com/c/yergXDav","start":null,"subscribed":true,"url":"https://trello.com/c/yergXDav/63-go","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"dark","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"616fb210639d3d374a47e82d","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2021-10-20T06:07:46.590Z","desc":"","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc","4f560ed0354bce507c9d4215"],"idMembersVoted":[],"idShort":64,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Haskell","pos":1523711,"shortLink":"jXZRTKUp","shortUrl":"https://trello.com/c/jXZRTKUp","start":null,"subscribed":true,"url":"https://trello.com/c/jXZRTKUp/64-haskell","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"dark","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"63fc67b9f2014e2ecf53634f","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2023-02-27T09:57:12.574Z","desc":"Trying
+        to set up an automated regression test suite. Will be using Katalon Studio
+        [https://katalon.com/](https://katalon.com/ \"smartCard-inline\")\n\nTrial
+        on the UNGC website","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["60ef01da92a1324ebdd8c6ff"],"idMembersVoted":[],"idShort":65,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Katalon
+        Studio","pos":1589247,"shortLink":"hnXdcbnW","shortUrl":"https://trello.com/c/hnXdcbnW","start":null,"subscribed":false,"url":"https://trello.com/c/hnXdcbnW/65-katalon-studio","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"dark","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827b36ce0aa43e44b5c646","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2023-03-06T12:31:50.977Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a786616c90ae1d7aca0","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":2,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Basecamp","pos":1654783,"shortLink":"fSdk2GYb","shortUrl":"https://trello.com/c/fSdk2GYb","start":null,"subscribed":true,"url":"https://trello.com/c/fSdk2GYb/2-basecamp","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null}]'
+  recorded_at: Wed, 10 May 2023 15:49:00 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/lists/5d827a79540eba071ae1314c/cards?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:49:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=1c070398570e3267daffa9cad057d80fb23a9a81494a91aeaf29fd4bba9232cf; Path=/;
+        Expires=Wed, 24 May 2023 15:49:00 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '97'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '297'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '372'
+      X-Server-Time:
+      - '1683733741089'
+      X-Trello-Actual-Fastget-Path:
+      - fast
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - beb252ee8c5e6191
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"5d827d1175fc7f6f45ed5652","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2022-12-29T08:17:22.634Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":14,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"},{"id":"5d827a59af988c41f2911f73","idBoard":"5d827a5980e2cc5d428124bb","name":"Discuss","color":"red"}],"idLabels":["5d827a59af988c41f2911f76","5d827a59af988c41f2911f73"],"manualCoverAttachment":false,"name":"Microservices","pos":65535,"shortLink":"pbykbiki","shortUrl":"https://trello.com/c/pbykbiki","start":null,"subscribed":true,"url":"https://trello.com/c/pbykbiki/14-microservices","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827db27a26bd1b7f70a4b4","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:21.278Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":20,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f72","idBoard":"5d827a5980e2cc5d428124bb","name":"Platforms","color":"orange"}],"idLabels":["5d827a59af988c41f2911f72"],"manualCoverAttachment":false,"name":"Docker","pos":327679,"shortLink":"oelks3Dk","shortUrl":"https://trello.com/c/oelks3Dk","start":null,"subscribed":true,"url":"https://trello.com/c/oelks3Dk/20-docker","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827dbfd8671139a728d792","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:22.011Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":21,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f72","idBoard":"5d827a5980e2cc5d428124bb","name":"Platforms","color":"orange"}],"idLabels":["5d827a59af988c41f2911f72"],"manualCoverAttachment":false,"name":"Kubernetes","pos":393215,"shortLink":"0jMw2Z6p","shortUrl":"https://trello.com/c/0jMw2Z6p","start":null,"subscribed":true,"url":"https://trello.com/c/0jMw2Z6p/21-kubernetes","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8db520f8cb975d829e491c","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-27T07:07:30.529Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":39,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f72","idBoard":"5d827a5980e2cc5d428124bb","name":"Platforms","color":"orange"}],"idLabels":["5d827a59af988c41f2911f72"],"manualCoverAttachment":false,"name":"Lambda(@Edge)","pos":458751,"shortLink":"E9tk8HZL","shortUrl":"https://trello.com/c/E9tk8HZL","start":null,"subscribed":false,"url":"https://trello.com/c/E9tk8HZL/39-lambdaedge","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5e2819c17b889d35e4a6a4b3","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-02-04T07:51:37.041Z","desc":"There
+        is a lot to gain by writting distributed apps and contracts for some types
+        of projects, including the UN project.","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["4f560ed0354bce507c9d4215"],"idMembersVoted":[],"idShort":56,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Solidity
+        (smart contracts)","pos":589823,"shortLink":"65IoCMGE","shortUrl":"https://trello.com/c/65IoCMGE","start":null,"subscribed":false,"url":"https://trello.com/c/65IoCMGE/56-solidity-smart-contracts","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5ffef1f0eb1f3574ffc2467e","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":2,"attachments":0,"description":true,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2022-02-08T09:09:29.590Z","desc":"Best
+        explanation for https://jdam.cd/release-trains/","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["4f3e2fa6e0f8ff52666bf984"],"idMembersVoted":[],"idShort":61,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"Release
+        trains","pos":1392639,"shortLink":"rOuN1OzO","shortUrl":"https://trello.com/c/rOuN1OzO","start":null,"subscribed":true,"url":"https://trello.com/c/rOuN1OzO/61-release-trains","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"63fd012cf67e0ecea3f461a1","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2023-02-27T19:15:38.707Z","desc":"All
+        QA team members have experience using Postman, Insomnia, Swagger","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["60ef01da92a1324ebdd8c6ff"],"idMembersVoted":[],"idShort":67,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"API
+        test tools","pos":1458175,"shortLink":"6W3ttSzD","shortUrl":"https://trello.com/c/6W3ttSzD","start":null,"subscribed":false,"url":"https://trello.com/c/6W3ttSzD/67-api-test-tools","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"dark","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"63fd017411081768ee2d3cd8","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2023-02-27T19:17:16.883Z","desc":"","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a79540eba071ae1314c","idMembers":["60ef01da92a1324ebdd8c6ff"],"idMembersVoted":[],"idShort":68,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Charles
+        proxy","pos":1523711,"shortLink":"Z6V5gBys","shortUrl":"https://trello.com/c/Z6V5gBys","start":null,"subscribed":false,"url":"https://trello.com/c/Z6V5gBys/68-charles-proxy","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"dark","idPlugin":null},"isTemplate":false,"cardRole":null}]'
+  recorded_at: Wed, 10 May 2023 15:49:00 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/lists/5d827a7ae5f2452452024b06/cards?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:49:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '9389'
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=93dab77752d47b838d92da28ac15b730c828946d486d380bc0fc5afa60d78998; Path=/;
+        Expires=Wed, 24 May 2023 15:49:01 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '96'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '296'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '371'
+      X-Server-Time:
+      - '1683733741562'
+      X-Trello-Actual-Fastget-Path:
+      - fast
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - 98515c89ec790a6e
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+    body:
+      encoding: UTF-8
+      string: '[{"id":"5d827bdfea81de0782f364bd","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2022-08-01T10:50:56.646Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":10,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Elm","pos":16383.75,"shortLink":"Bf2dO0TT","shortUrl":"https://trello.com/c/Bf2dO0TT","start":null,"subscribed":true,"url":"https://trello.com/c/Bf2dO0TT/10-elm","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5e28189cbc6ec73c010921f3","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2022-08-01T10:40:41.305Z","desc":"Flutter
+        is picking up a lot of speed, it comes build in on top of Dart a easy to use
+        programming language.\n\nIn the latest release they added web as a platform.","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":55,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"},{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f71","5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Flutter
+        (mobile / web cross platform development)","pos":32767.5,"shortLink":"eRNuDJ4X","shortUrl":"https://trello.com/c/eRNuDJ4X","start":null,"subscribed":true,"url":"https://trello.com/c/eRNuDJ4X/55-flutter-mobile-web-cross-platform-development","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827bc660d4f25d47eef24a","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-12-03T10:08:29.232Z","desc":"Just
+        kidding :)","descData":{"emoji":{}},"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["506c04e91c07581a7f04cebc","5a99a8bb8c476798567e77c5"],"idMembersVoted":[],"idShort":8,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Php","pos":65535,"shortLink":"iPACZuWs","shortUrl":"https://trello.com/c/iPACZuWs","start":null,"subscribed":true,"url":"https://trello.com/c/iPACZuWs/8-php","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8301d3a78ae75e639083b6","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":2,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2023-01-13T13:28:38.658Z","desc":"Cannot
+        scale horizontally and cross data centers","descData":{"emoji":{}},"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["50a0e72c8beb6f0c2a0097f6","5a99a8bb8c476798567e77c5"],"idMembersVoted":[],"idShort":22,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Redis","pos":81919,"shortLink":"kvmoLg5W","shortUrl":"https://trello.com/c/kvmoLg5W","start":null,"subscribed":false,"url":"https://trello.com/c/kvmoLg5W/22-redis","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8778aaf93cf6370c818991","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2022-12-29T08:23:06.309Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":30,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"},{"id":"5d827a59af988c41f2911f73","idBoard":"5d827a5980e2cc5d428124bb","name":"Discuss","color":"red"}],"idLabels":["5d827a59af988c41f2911f71","5d827a59af988c41f2911f73"],"manualCoverAttachment":false,"name":"Machine
+        learning","pos":327679,"shortLink":"CCG9Vxqg","shortUrl":"https://trello.com/c/CCG9Vxqg","start":null,"subscribed":true,"url":"https://trello.com/c/CCG9Vxqg/30-machine-learning","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8303766921312591723213","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":3,"attachments":0,"description":true,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-07-17T14:14:37.207Z","desc":"https://github.com/davebs/AgileLite","descData":{"emoji":{}},"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["50a0e72c8beb6f0c2a0097f6","506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":24,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"AgileLite","pos":688127,"shortLink":"IGqtcqxs","shortUrl":"https://trello.com/c/IGqtcqxs","start":null,"subscribed":true,"url":"https://trello.com/c/IGqtcqxs/24-agilelite","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5f11b276cbc87d83aff9011d","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":1,"attachments":0,"description":false,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-07-17T14:17:06.247Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827a7ae5f2452452024b06","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":59,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Ember","pos":753663,"shortLink":"p5qPxmva","shortUrl":"https://trello.com/c/p5qPxmva","start":null,"subscribed":true,"url":"https://trello.com/c/p5qPxmva/59-ember","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null}]'
+  recorded_at: Wed, 10 May 2023 15:49:01 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/lists/5d827ab98ce86e66f24481cb/cards?filter=open&key=f7c08bec2b0eb4fcb5cf7c1de66cf017&token=ATTAf6694ae10122a7aba4e372bf76e67ce2606efbca1bd91bf7f80f435f742066370565EC92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 May 2023 15:49:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Dns-Prefetch-Control:
+      - 'off'
+      Expect-Ct:
+      - max-age=0
+      X-Frame-Options:
+      - DENY
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Trello-Version:
+      - 1.208340.0
+      X-Trello-Environment:
+      - Production
+      Set-Cookie:
+      - dsc=bcde5ea0103abaa0417b7d9a4658008a932e1a54e8efb889b73e205bbabfafaa; Path=/;
+        Expires=Wed, 24 May 2023 15:49:01 GMT; Secure; SameSite=None
+      - preAuthProps=s%3A506c04e91c07581a7f04cebc%3AisEnterpriseAdmin%3Dfalse.F3eU3dPI9yAuLvT%2FMM3Mc98sPPY7PZalj8T5JuOTSGk;
+        Path=/; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      Access-Control-Expose-Headers:
+      - x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining,
+        x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '95'
+      X-Rate-Limit-Db-Query-Time-Interval-Ms:
+      - '600000'
+      X-Rate-Limit-Db-Query-Time-Max:
+      - '7200000'
+      X-Rate-Limit-Db-Query-Time-Remaining:
+      - '7199990'
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '295'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '375'
+      X-Rate-Limit-Member-Remaining:
+      - '370'
+      X-Server-Time:
+      - '1683733742119'
+      X-Trello-Actual-Fastget-Path:
+      - fast
+      Server:
+      - AtlassianEdge
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Atl-Traceid:
+      - b5e48db59d90d4b3
+      Report-To:
+      - '{"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group":
+        "endpoint-1", "include_subdomains": true, "max_age": 600}'
+      Nel:
+      - '{"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to":
+        "endpoint-1"}'
+      Strict-Transport-Security:
+      - max-age=63072000; preload
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"5d827b8bc7b79961c88ecf23","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:25.466Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":7,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"TDD","pos":8191.875,"shortLink":"xEGxUKIq","shortUrl":"https://trello.com/c/xEGxUKIq","start":null,"subscribed":true,"url":"https://trello.com/c/xEGxUKIq/7-tdd","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827b87d321196b225ce3ff","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:26.112Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":6,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f76","idBoard":"5d827a5980e2cc5d428124bb","name":"Techniques","color":"purple"}],"idLabels":["5d827a59af988c41f2911f76"],"manualCoverAttachment":false,"name":"Agile","pos":16383.75,"shortLink":"qCv6bvO0","shortUrl":"https://trello.com/c/qCv6bvO0","start":null,"subscribed":true,"url":"https://trello.com/c/qCv6bvO0/6-agile","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827b76ca476a22ef61c78b","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:26.696Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":5,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Ruby
+        on Rails","pos":32767.5,"shortLink":"4wPMTTUv","shortUrl":"https://trello.com/c/4wPMTTUv","start":null,"subscribed":true,"url":"https://trello.com/c/4wPMTTUv/5-ruby-on-rails","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827cf993a2258c53e6ea15","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:28.630Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":13,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Ruby","pos":65535,"shortLink":"E4f7kIHv","shortUrl":"https://trello.com/c/E4f7kIHv","start":null,"subscribed":true,"url":"https://trello.com/c/E4f7kIHv/13-ruby","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827b5d9acc0e2b746fa16c","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:29.328Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":3,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"Github","pos":131071,"shortLink":"9chL9Nd5","shortUrl":"https://trello.com/c/9chL9Nd5","start":null,"subscribed":true,"url":"https://trello.com/c/9chL9Nd5/3-github","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827d306a87d77d6dd00d30","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:30.029Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":16,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"C#","pos":196607,"shortLink":"6IRKneNC","shortUrl":"https://trello.com/c/6IRKneNC","start":null,"subscribed":true,"url":"https://trello.com/c/6IRKneNC/16-c","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827d412093db3846067022","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:30.686Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":18,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Java","pos":262143,"shortLink":"Y71HQWPp","shortUrl":"https://trello.com/c/Y71HQWPp","start":null,"subscribed":true,"url":"https://trello.com/c/Y71HQWPp/18-java","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827d4c5046288c40754c93","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-18T18:56:32.569Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":19,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"JS","pos":327679,"shortLink":"g4WeOZBG","shortUrl":"https://trello.com/c/g4WeOZBG","start":null,"subscribed":true,"url":"https://trello.com/c/g4WeOZBG/19-js","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d8307d9b4941f6163c12ca0","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-09-19T18:17:22.656Z","desc":"","descData":null,"due":null,"dueReminder":-1,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":27,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"PostgreSQL","pos":344063,"shortLink":"IbJfT1NA","shortUrl":"https://trello.com/c/IbJfT1NA","start":null,"subscribed":false,"url":"https://trello.com/c/IbJfT1NA/27-postgresql","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5da8c237a9c2b2821e61228a","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2019-10-17T19:34:55.708Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["50a0e72c8beb6f0c2a0097f6"],"idMembersVoted":[],"idShort":49,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f71","idBoard":"5d827a5980e2cc5d428124bb","name":"Tools","color":"yellow"}],"idLabels":["5d827a59af988c41f2911f71"],"manualCoverAttachment":false,"name":"MySQL","pos":409599,"shortLink":"KYVAW88I","shortUrl":"https://trello.com/c/KYVAW88I","start":null,"subscribed":false,"url":"https://trello.com/c/KYVAW88I/49-mysql","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5d827d3718979d6bf69d12f6","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":true,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-01-22T09:40:03.894Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["506c04e91c07581a7f04cebc"],"idMembersVoted":[],"idShort":17,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Kotlin
+        (Android development)","pos":475135,"shortLink":"h5P1frtB","shortUrl":"https://trello.com/c/h5P1frtB","start":null,"subscribed":true,"url":"https://trello.com/c/h5P1frtB/17-kotlin-android-development","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5e28185c8def3e8747ab25bc","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"checkItemsEarliestDue":null,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-01-22T09:40:06.568Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":[],"idMembersVoted":[],"idShort":54,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Swift
+        (ios Development)","pos":524287,"shortLink":"ZQqyav63","shortUrl":"https://trello.com/c/ZQqyav63","start":null,"subscribed":false,"url":"https://trello.com/c/ZQqyav63/54-swift-ios-development","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null},{"id":"5e4b9c7f28c6a082630b244b","badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false,"start":null},"checkItemStates":null,"closed":false,"dueComplete":false,"dateLastActivity":"2020-02-18T08:13:03.673Z","desc":"","descData":null,"due":null,"dueReminder":null,"email":null,"idBoard":"5d827a5980e2cc5d428124bb","idChecklists":[],"idList":"5d827ab98ce86e66f24481cb","idMembers":["55b214f153211f6b3417bcc6"],"idMembersVoted":[],"idShort":58,"idAttachmentCover":null,"labels":[{"id":"5d827a59af988c41f2911f70","idBoard":"5d827a5980e2cc5d428124bb","name":"Programming
+        Languages and Frameworks","color":"green"}],"idLabels":["5d827a59af988c41f2911f70"],"manualCoverAttachment":false,"name":"Brightscript/Brightsign
+        (roku development)","pos":589823,"shortLink":"mPgyr3P8","shortUrl":"https://trello.com/c/mPgyr3P8","start":null,"subscribed":false,"url":"https://trello.com/c/mPgyr3P8/58-brightscript-brightsign-roku-development","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light","idPlugin":null},"isTemplate":false,"cardRole":null}]'
+  recorded_at: Wed, 10 May 2023 15:49:01 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,62 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+/public/assets
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+/node_modules
+/yarn-error.log
+
+/vendor/bundle/
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/public/assets
+
+# Ignore files related to testing
+/spec/examples.txt
+/spec/cassettes
+
+# Ignore dotenv
+/.env
+
+# Ignore Mac and Linux file system files
+*.swp
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore RuboCop cache
+/.rubocop_cache
+/.rubocop.yml
+
+# Ignore RubyMine project files
+.idea
+
